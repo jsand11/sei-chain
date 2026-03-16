@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-            - name: Install Python and YAML tools
+      - name: Install Python and YAML tools
         run: |
           pip3 install pyyaml
 
